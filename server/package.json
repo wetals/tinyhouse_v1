@@ -1,17 +1,17 @@
 {
-    "name": "Tinyhouse-v1-server",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "@types/express": "^4.17.3",
-        "@types/node": "^13.7.7",
-        "nodemon": "^2.0.2",
-        "ts-node": "^8.6.2",
-        "typescript": "^3.8.3"
-    },
-    "scripts": {
-        "start": "nodemon src/"
-    }
+  "name": "Tinyhouse-v1-server",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.7.7",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  }
 }
