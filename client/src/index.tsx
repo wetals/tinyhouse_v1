@@ -1,9 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
+import { Listings } from './sections';
 
-render(<div>Hello World</div>, document.getElementById('root'));
+render(
+  <Listings title="TinyHouse Listings" />,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
