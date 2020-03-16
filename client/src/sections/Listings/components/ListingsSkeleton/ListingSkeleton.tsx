@@ -17,11 +17,11 @@ export const ListingSkeleton = ({ title, error }: Props) => {
     <div className="listings-skeleton">
       {errorAlert}
       <h2>{title}</h2>
-      <Skeleton paragraph={{ rows: 1 }} />
+      <Skeleton active paragraph={{ rows: 1 }} />
       <Divider />
-      <Skeleton paragraph={{ rows: 1 }} />
+      <Skeleton active paragraph={{ rows: 1 }} />
       <Divider />
-      <Skeleton paragraph={{ rows: 1 }} />
+      <Skeleton active paragraph={{ rows: 1 }} />
     </div>
   );
 };
